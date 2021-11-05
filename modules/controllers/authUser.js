@@ -1,5 +1,8 @@
 const passport = require('passport');
 const genPassword = require('../lib/passUtils').genPassword;
+const connection = require('../../config/DB.config');
+const userModel = require('../schema/users.schema');
+
 
 
 
